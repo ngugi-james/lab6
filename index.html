@@ -116,61 +116,74 @@
 				<h3>Stats of HI/Max</h3>
 				<style>
 					table {
-					  width: 100%;
-					  border-collapse: collapse;
-					  font-family: Arial, sans-serif;
+						width: 100%;
+						border-collapse: collapse;
+						font-family: Arial, sans-serif;
 					}
-					th, td {
-					  padding: 10px;
-					  text-align: center;
-					  border: 1px solid black;
-					}
-					th {
-					  background-color: #6D6D6D; /* Dark gray background for headers */
-					  color: white;
-					}
-					th[colspan="2"] {
-					  background-color: #3F3F3F; /* Lighter gray for subheaders */
-					} 
+
+					th,
 					td {
-					  background-color: white;
-					  color: black;
+						padding: 10px;
+						text-align: center;
+						border: 1px solid black;
 					}
-				  </style>
+
+					th {
+						background-color: #6D6D6D;
+						/* Ligher gray background for headers */
+						color: white;
+					}
+
+					th[colspan="2"] {
+						background-color: #3F3F3F;
+						/* Darker gray for subheaders */
+					}
+
+					th[rowspan="2"]{
+						background-color: #3F3F3F;
+					}
+
+					td {
+						background-color: white;
+						color: black;
+					}
+				</style>
 				<table>
 					<col>
 					<colgroup span="2"></colgroup>
 					<colgroup span="2"></colgroup>
 					<tr>
-					  <th id="years" rowspan="2">Year</th>
-					  <th colspan="2" scope="colgroup">Sold Properties</th>
-					  <th colspan="2" scope="colgroup">Average selling price</th>
+						<th id="year" rowspan="2">Year</th>
+						<th colspan="2" scope="colgroup">Sold Properties</th>
+						<th colspan="2" scope="colgroup">Average selling price</th>
 					</tr>
 					<tr>
-					  <th scope="col">Quebec</th>
-					  <th scope="col">Ontario</th>
-					  <th scope="col">Single house</th>
-					  <th scope="col">Condo</th>
+						<th scope="col">Quebec</th>
+						<th scope="col">Ontario</th>
+						<th scope="col">Single house</th>
+						<th scope="col">Condo</th>
 					</tr>
 					<tr>
-					  <th scope="row">2021</th>
-					  <td>50</td>
-					  <td>100</td>
-					  <td>$500,000</td>
-					  <td>189,000</td>
+						<th scope="row">2021</th>
+						<td>50</td>
+						<td>100</td>
+						<td>$500,000</td>
+						<td>189,000</td>
 					</tr>
 					<tr>
-					  <th scope="row">2022</th>
-					  <td>100</td>
-					  <td>200</td>
-					  <td>$780,000</td>
-					  <td>240,000</td>
+						<th scope="row">2022</th>
+						<td>100</td>
+						<td>200</td>
+						<td>$780,000</td>
+						<td>240,000</td>
 					</tr>
-				  </table>	  
+				</table>
 			</div>
 		</div>
 		<div class="clear"></div>
-		<div><h2>More Resources on How to Choose the Right Agent</h2></div>
+		<div>
+			<h2>More Resources on How to Choose the Right Agent</h2>
+		</div>
 		<div class="row">
 			<div class="col-md-4 ">
 				<p>
@@ -263,4 +276,3 @@
 </body>
 
 </html>
-
